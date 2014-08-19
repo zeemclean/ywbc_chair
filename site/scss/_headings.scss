@@ -1,0 +1,25 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+ .navlinks {
+ 	text-transform: uppercase;
+ 	text-align: center;
+}
+.contentLinks {
+	 	&:hover {
+ 		text-decoration: underline;
+ 	}
+}
+.verticalNav {
+
+}
+h1 {
+	font-size:5em;
+}
+
+
+h2 {
+	font-size: 2.5em;
+	color: $mist;
+	text-align:center;
+}

@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,300italic);
+/* line 1, ../scss/_headings.scss */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* line 4, ../scss/_headings.scss */
+.navlinks {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 9, ../scss/_headings.scss */
+.contentLinks:hover {
+  text-decoration: underline;
+}
+
+/* line 16, ../scss/_headings.scss */
+h1 {
+  font-size: 5em;
+}
+
+/* line 21, ../scss/_headings.scss */
+h2 {
+  font-size: 2.5em;
+  color: #87afba;
+  text-align: center;
+}
+
+/* line 1, ../scss/_layout.scss */
+.view {
+  margin-top: 6em;
+}
+
+/* line 4, ../scss/_layout.scss */
+.navbox {
+  border-right: .2em solid black;
+}
+
+/* line 8, ../scss/_layout.scss */
+.sideNav {
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+
+/* line 14, ../scss/_layout.scss */
+#products {
+  display: none;
+}
+
+/* line 1, ../scss/_home.scss */
+.homefeeds {
+  margin-top: 2em;
+}
+
+/* line 5, ../scss/_home.scss */
+.headingbox {
+  text-align: center;
+  padding: 3em;
+  border-bottom: .2em solid black;
+}
+
+/* line 13, ../scss/_home.scss */
+.twitterbox {
+  border-left: .2em solid black;
+}
+
+/* line 17, ../scss/_home.scss */
+.feature {
+  height: 400px;
+}
+
+/* line 20, ../scss/_home.scss */
+.featureName {
+  text-align: center;
+  color: #87afba;
+  padding-top: .8em;
+  z-index: 30;
+  line-height: .9em;
+  margin-bottom: 0;
+}
+
+/* line 28, ../scss/_home.scss */
+.designer {
+  text-align: center;
+  margin: 0;
+}
+
+/* line 32, ../scss/_home.scss */
+.featurePhoto {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  float: left;
+}
+
+/* line 40, ../scss/_home.scss */
+#ghost {
+  background-image: url("../assets/chairs/rounded_transparent.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
