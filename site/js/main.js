@@ -6,18 +6,42 @@ $(document).ready(function(){
 	// if(contentHref == visibleId) {
 	// 	contentHref
 	// }
+        showHideProductText($(window));
 
-	   $('.productText').scroll(function (e) {
-        if ($('.productText').scrollTop() < 100) {
-            $this.css({
-                position: 'absolute',
-                top: 100
-            });
-        } else {
-            $this.css({
-                position: 'fixed',
-                top: 0
-            });
-        }
-    });
+
+	   $(window).on('scroll', function (e) {
+
+        var self = $(this);
+        console.log(self.scrollTop());
+
+        showHideProductText(self);
+
+        // if (self.scrollTop() < 100) {
+        //     self.css({
+        //         position: 'absolute',
+        //         top: 100
+        //     });
+        // } if (self.scrollTop() < 60 ){
+            
+        // }
+        //  else {
+        //     self.css({
+        //         position: 'fixed',
+        //         top: 0
+        //     });        
+        // }
+
+        });
 });
+
+function showHideProductText(element) {
+
+        if (element.scrollTop() < 153 ) {
+
+            $('.productText').css('visibility', 'hidden');
+
+        } else {
+
+            $('.productText').css('visibility', 'visible');
+        }
+}

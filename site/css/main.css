@@ -1,164 +1,73 @@
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,300italic);
-/* line 1, ../scss/_headings.scss */
-body {
-  font-family: 'Josefin Sans', sans-serif;
-}
+/*
+Syntax error: Invalid CSS after "}": expected selector or at-rule, was "}"
+        on line 29 of /Users/zoe.mclean/Sites/Matipo/ywbc_chair/site/scss/_home.scss
+        from line 6 of /Users/zoe.mclean/Sites/Matipo/ywbc_chair/site/scss/main.scss
 
-/* line 4, ../scss/_headings.scss */
-.navlinks {
-  text-transform: uppercase;
-  text-align: center;
-}
-
-/* line 9, ../scss/_headings.scss */
-.contentLinks:hover {
-  text-decoration: underline;
-}
-
-/* line 16, ../scss/_headings.scss */
-h1 {
-  font-size: 5em;
-}
-
-/* line 21, ../scss/_headings.scss */
-h2 {
-  font-size: 2.5em;
-  color: #87afba;
-  text-align: center;
-}
-
-/* line 29, ../scss/_headings.scss */
-h3.designer {
-  text-align: center;
-  margin: 0;
-}
-
-/* line 35, ../scss/_headings.scss */
-h4 {
-  margin: 0;
-  color: #87afba;
-  font-size: 1.5em;
-}
-/* line 41, ../scss/_headings.scss */
-h4.designer {
-  text-align: right;
-}
-
-/* line 1, ../scss/_layout.scss */
-.view {
-  margin-top: 6em;
-}
-
-/* line 4, ../scss/_layout.scss */
-.navbox {
-  border-right: .2em solid black;
-}
-
-/* line 8, ../scss/_layout.scss */
-.sideNav {
-  margin-top: 1em;
-  font-size: 1.5em;
-}
-
-/* line 13, ../scss/_layout.scss */
-.fixedelement {
-  position: fixed;
-  width: inherit;
-}
-
-/* line 1, ../scss/_home.scss */
-.homefeeds {
-  margin-top: 2em;
-}
-
-/* line 5, ../scss/_home.scss */
-.headingbox {
-  text-align: center;
-  padding: 3em;
-  border-bottom: .2em solid black;
-}
-
-/* line 13, ../scss/_home.scss */
-.twitterbox {
-  border-left: .2em solid black;
-}
-
-/* line 17, ../scss/_home.scss */
-.feature {
-  height: 400px;
-}
-
-/* line 20, ../scss/_home.scss */
-.featureName {
-  text-align: center;
-  color: #87afba;
-  padding-top: .8em;
-  z-index: 30;
-  line-height: .9em;
-  margin-bottom: 0;
-}
-
-/* line 28, ../scss/_home.scss */
-.designer {
-  text-align: right;
-  margin: 0;
-}
-
-/* line 32, ../scss/_home.scss */
-.featurePhoto {
-  position: absolute;
-  width: 100%;
-  z-index: 0;
-  float: left;
-}
-
-/* line 40, ../scss/_home.scss */
-#ghost {
-  background-image: url("../assets/chairs/rounded_transparent.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-/* line 2, ../scss/_products.scss */
-.productview {
-  margin-top: 700px;
-}
-
-/* line 8, ../scss/_products.scss */
-.productimage {
-  margin: auto;
-}
-
-/* line 11, ../scss/_products.scss */
-.description {
-  background: white;
-  padding: 2em;
-  width: 100%;
-}
-
-/* line 19, ../scss/_products.scss */
-.productName {
-  text-align: right;
-}
-
-/* line 24, ../scss/_products.scss */
-.productText {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  margin-top: 700px;
-  margin-bottom: 600px;
-}
-
-/* line 33, ../scss/_products.scss */
-.productDescription {
-  position: absolute;
-  width: 50%;
-}
-
-/* line 38, ../scss/_products.scss */
-.productDesigner {
-  position: absolute;
-  left: 48%;
-  width: 50%;
-}
+Backtrace:
+/Users/zoe.mclean/Sites/Matipo/ywbc_chair/site/scss/_home.scss:29
+/Users/zoe.mclean/Sites/Matipo/ywbc_chair/site/scss/main.scss:6
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:1129:in `expected'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:1066:in `expected'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:28:in `parse'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:342:in `_to_tree'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:272:in `to_tree'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:222:in `visit_import'
+org/jruby/RubyKernel.java:2096:in `send'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+org/jruby/RubyArray.java:2336:in `collect'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `visit_children'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+org/jruby/RubyKernel.java:2096:in `send'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+org/jruby/RubyKernel.java:2096:in `send'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+org/jruby/RubyArray.java:1603:in `each'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+org/jruby/RubyMethod.java:133:in `call'
+org/jruby/RubyProc.java:268:in `call'
+org/jruby/RubyProc.java:228:in `call'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `modified'
+org/jruby/RubyArray.java:1603:in `each'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
+org/jruby/RubyArray.java:1603:in `each'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
+org/jruby/RubyKernel.java:1419:in `loop'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/zoe.mclean/Applications/Scout.app/Contents/Resources/bin/compass:12:in `(root)'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"}\": expected selector or at-rule, was \"}\"\A         on line 29 of /Users/zoe.mclean/Sites/Matipo/ywbc_chair/site/scss/_home.scss\A         from line 6 of /Users/zoe.mclean/Sites/Matipo/ywbc_chair/site/scss/main.scss"; }
