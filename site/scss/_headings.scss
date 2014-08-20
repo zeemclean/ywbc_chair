@@ -23,3 +23,24 @@ h2 {
 	color: $mist;
 	text-align:center;
 }
+
+h3 {
+
+	&.designer {
+		text-align:center;
+		margin: 0;
+	}
+}
+
+h4 {
+
+	margin: 0;
+	color: $mist;
+	font-size:1.5em;
+
+	&.designer {
+		text-align:right;
+		
+	}
+
+}

@@ -10,8 +10,11 @@
 	font-size: 1.5em;
 
 }
-
+.fixedelement {
+	position: fixed;
+	width: inherit;
+}
 #products {
-	display: none;
+
 }
 

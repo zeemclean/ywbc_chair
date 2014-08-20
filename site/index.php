@@ -6,6 +6,8 @@
 	
 	<!-- jQuery -->
 	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<!-- Sticky Kit -->
+	<script type="text/javascript" src="js/jquery.sticky-kit.js"></script>
 	<!-- Main JavaScript -->
 	<script type="text/javascript" src="js/main.js"></script>
 	
@@ -19,23 +21,25 @@
 	<div class="container">
 		<div class="row view">
 			<div class="col-md-4 navbox">
-				<div class="row">
+				<div class="fixedelement">
+					<div class="row">
 					<div class="col-md-8 col-md-offset-2">
-						<img id="navLogo" class="img-responsive" src="assets/logo.png" alt="Matipo Logo">
+						<img id="navLogo" class="img-responsive" src="assets/logo_s.png" alt="Matipo Logo">
 					</div>
-				</div>
-				<div class="row navlinks sideNav">
+					</div>
+					<div class="row navlinks sideNav">
 					<nav class="sideNav">
-						<div class="contentLink" href="#home">Home</div>
-						<div class="contentLink" href="#products">Products</div>
-						<div class="contentLink" href="#location">Location</div>
-						<div class="contentLink" href="#about">About</div>
+						<div class="linkcontainer"><a class="contentLink" href="#home">Home</a></div>
+						<div class="linkcontainer"><a class="contentLink" href="#products">Products</a></div>
+						<div class="linkcontainer"><a class="contentLink" href="#location">Location</a></div>
+						<div class="linkcontainer"><a class="contentLink" href="#about">About</a></div>
 					</nav> 
-				</div>			
+					</div>	
+				 </div>	 	
 			</div>
 			<div class="col-md-7 col-md-offset-1 contentbox">
 				<?php
-					include("includes/home.php");
+					// include("includes/home.php");
 					include("includes/products.php");
 				?>
 			</div>

@@ -27,6 +27,23 @@ h2 {
   text-align: center;
 }
 
+/* line 29, ../scss/_headings.scss */
+h3.designer {
+  text-align: center;
+  margin: 0;
+}
+
+/* line 35, ../scss/_headings.scss */
+h4 {
+  margin: 0;
+  color: #87afba;
+  font-size: 1.5em;
+}
+/* line 41, ../scss/_headings.scss */
+h4.designer {
+  text-align: right;
+}
+
 /* line 1, ../scss/_layout.scss */
 .view {
   margin-top: 6em;
@@ -43,9 +60,10 @@ h2 {
   font-size: 1.5em;
 }
 
-/* line 14, ../scss/_layout.scss */
-#products {
-  display: none;
+/* line 13, ../scss/_layout.scss */
+.fixedelement {
+  position: fixed;
+  width: inherit;
 }
 
 /* line 1, ../scss/_home.scss */
@@ -82,7 +100,7 @@ h2 {
 
 /* line 28, ../scss/_home.scss */
 .designer {
-  text-align: center;
+  text-align: right;
   margin: 0;
 }
 
@@ -99,4 +117,48 @@ h2 {
   background-image: url("../assets/chairs/rounded_transparent.png");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+/* line 2, ../scss/_products.scss */
+.productview {
+  margin-top: 700px;
+}
+
+/* line 8, ../scss/_products.scss */
+.productimage {
+  margin: auto;
+}
+
+/* line 11, ../scss/_products.scss */
+.description {
+  background: white;
+  padding: 2em;
+  width: 100%;
+}
+
+/* line 19, ../scss/_products.scss */
+.productName {
+  text-align: right;
+}
+
+/* line 24, ../scss/_products.scss */
+.productText {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 700px;
+  margin-bottom: 600px;
+}
+
+/* line 33, ../scss/_products.scss */
+.productDescription {
+  position: absolute;
+  width: 50%;
+}
+
+/* line 38, ../scss/_products.scss */
+.productDesigner {
+  position: absolute;
+  left: 48%;
+  width: 50%;
 }
