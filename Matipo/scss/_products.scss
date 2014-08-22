@@ -1,0 +1,64 @@
+
+.productview {
+	margin-top: 700px;
+
+}
+
+
+.productimage {
+	position: absolute;
+	// right: 100px;
+ 	margin-right: 20%;
+ 	margin-bottom:2em;
+}
+.description{
+	background: white;
+	padding: 2em;
+	width: 100%;
+
+
+}
+
+
+.productName{
+
+	text-align: right;
+
+}
+.productText{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin-top:1100px;
+	border-left: $border;
+
+
+}
+.productDescription {
+	position:absolute;
+	width: 40%;
+	bottom: 700px;
+	left:3%;
+	
+
+}
+.productDesigner{
+	position: absolute;
+	left:43%;
+	width: 40%;
+	bottom: 730px;
+
+}
+
+#mademoiselle {
+	display: none;
+}
+#zigzag {
+	display:none;
+}
+#ghost {
+	display: none;
+}
+
+
+

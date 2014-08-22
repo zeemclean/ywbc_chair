@@ -1,0 +1,86 @@
+.view{
+	margin-top:6em;
+}
+.navbox {
+	padding-right: 300px;
+	
+}
+.img-responsive{
+	margin:auto;
+}
+
+.sideNav {
+	margin-top: 1em;
+	font-size: 1.5em;
+
+}
+.fixedelement {
+	position: fixed;
+	width: inherit;
+}
+.productback {
+
+	// padding-left:25%;
+}
+#productnav {
+	display:none;
+
+}
+.horizontalnav {
+	margin-top:300px
+}
+.navtab {
+	border-top: $border;
+	margin-top: 2em;
+}
+
+iframe {
+	width: 100%;
+	height: 485px;
+}
+.content-section {
+	border:none;
+	min-height:0px;
+		@include respond($tablet){
+			border-left: $border;
+			min-height: 685px;
+		}	
+}
+
+#location {
+
+	@include respond($tablet){
+		display:none;
+	}
+	
+
+}
+#about {
+	@include respond($tablet){
+		display:none;
+    }
+}
+
+.aboutBlurb{
+	margin-top: 10%
+}
+#mob-mademoiselle{
+	display:none;
+}
+#mob-zigzag{
+	display:none;
+}
+#mob-ghost{
+	display:none;
+}
+#twitter{
+	display:none;
+}
+#mob-location{
+	display:none;
+}
+#mob-about {
+	display:none;
+}
+
+

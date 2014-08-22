@@ -1,0 +1,99 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+ .navlinks {
+ 	text-transform: uppercase;
+ 	text-align: center;
+}
+.contentLinks {
+	 	&:hover {
+ 		text-decoration: underline;
+ 	}
+}
+.verticalNav {
+
+}
+h1 {
+	font-size:5em;
+	&.mob{
+		font-size:3em;
+		text-align:center;
+	}
+	&.contentTitle {
+		text-align:right;
+		color: $mist;
+	}
+}
+
+
+
+h2 {
+	font-size: 2.5em;
+	color: $mist;
+	text-align:center;
+	
+	&.mob{
+		font-size: 2em;
+		text-align: right;
+		text-decoration: underline;
+	}
+	&.nav {
+		font-size:2em;
+		text-align: right;
+		color: black;
+		&:hover{
+			color: $mist;
+		}
+
+	}
+
+	
+
+}
+
+h3 {
+
+	&.designer {
+		text-align:center;
+		margin: 0;
+	}
+	&.nav{
+		text-align:center;
+		font-size:1em;
+	}
+
+}
+
+h4 {
+	text-align: center;
+	color: $mist;
+	margin: 0;
+	font-size:1.5em;
+	@include respond($tablet) {
+
+	&.designer {
+		text-align:right;
+		
+	}
+	}
+
+
+}
+.little-text{
+		font-size: .5em;
+	}
+a{
+	color:inherit;
+	&:hover{
+		color:$mist;
+	}
+}
+.right{
+	text-align: center;
+	@include respond($tablet){
+		text-align: right;
+	}
+}
+.active {
+	color: $mist;
+}

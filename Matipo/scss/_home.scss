@@ -1,0 +1,43 @@
+.homefeeds {
+	margin-top: 2em;
+}
+
+.headingbox {
+	text-align:center;
+	padding: 3em;
+	border-bottom: $border;
+}
+
+
+
+.twitterbox {
+	border-left: $border;
+}
+
+.feature { 
+	height: 400px;
+}
+.featureName {
+	text-align:center;
+	color: $mist;
+	padding-top:.8em;
+	z-index: 30;
+	line-height: .9em;
+	margin-bottom:0;
+}
+
+
+.featurePhoto {
+	position: absolute;
+	width:100%;
+	z-index:0;
+	float:left;
+
+}
+
+#feature {
+ background-image: url('../assets/chairs/rounded_transparent.png');
+ background-size: contain;
+ background-repeat:no-repeat;
+ background-position: center top;
+}
