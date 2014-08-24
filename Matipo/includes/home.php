@@ -9,10 +9,8 @@
 			<div class="row">
 				<h2>Featured Chair</h2>
 				<div id="feature" class="col-md-10 col-md-offset-2 feature">
-<!-- 					<img class="featurePhoto" src="assets/chairs/rounded_transparent.png"
-					 alt="Louis Ghost: Rounded transperant chair"> -->
-					 <h1 class="featureName">Louis Ghost</h1>
-					 <h3 class="designer">Phillippe Starck</h3>
+					<h1 class="featureName">Louis Ghost</h1>
+					<h3 class="designer">Phillippe Starck</h3>
 				</div>	
 			</div>
 		</div>
