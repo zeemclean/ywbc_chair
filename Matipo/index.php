@@ -22,9 +22,9 @@
 <body>
 	<div class="container-fluid hidden-xs hidden-sm">
 		
-		<div class="desktop row view ">
+		<div class="desktop row view">
 			<div class="col-md-3 navbox clearfix">
-				<div class="fixedelement ">
+				<div class="fixedelement">
 				<?php 
 					include('includes/mainnav.php');
 					include('includes/productnav.php')
@@ -42,18 +42,18 @@
 		</div>
 	</div>
 	<div class="container hidden-md hidden-lg view">
-		<div class="mob row ">
+		<div class="mob row">
 			<header>
 				<div class="row">
 					<div class="col-xs-4 col-xs-offset-4">
-						<img id="navLogo" class="img-responsive" src="assets/logo_xs.png" alt="Matipo Logo">
+						<img id="navLogo" class="img-responsive" src="assets/logo_xs.png" alt="Matipo Logo" title="Matipo Logo">
 					</div>
 			</header>
 			
-			<div class="row ">
+			<div class="row">
 				<div class="col-xs-10 col-xs-offset-1 navtab">
 					<div class="dropdown">
-					<a  class="dropdown-toggle" data-toggle="dropdown" type="button" id="productDropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" type="button" id="productDropdown">
 						<h1 class="mob">Products <span class="caret"></span></h1>
 					</a>
 					<ul class="dropdown-menu dropdown-menu-right" role="menu" area-labelledby="productDropDown">
@@ -71,7 +71,7 @@
 				include("includes/mob-products.php");
 			?>
 			</div>
-			<div class="row ">
+			<div class="row">
 				<div class="col-xs-10 col-xs-offset-1 navtab">
 					
 					<a  class="contentLink" href="#mob-location">
@@ -85,10 +85,10 @@
 					include("includes/location.php");
 				?>
 			</div>
-			<div class="row ">
+			<div class="row">
 				<div class="col-xs-10 col-xs-offset-1 navtab">
 					
-					<a  class="contentLink" href="#twitter">
+					<a class="contentLink" href="#twitter">
 						<h1 class="mob">Twitter</h1>
 					</a>
 			
@@ -100,7 +100,7 @@
 				?>
 			</div>
 		</div>
-		<div class="row ">
+		<div class="row">
 				<div class="col-xs-10 col-xs-offset-1 navtab">
 					
 					<a class="contentLink" href="#mob-about">
