@@ -103,7 +103,7 @@
 		<div class="row ">
 				<div class="col-xs-10 col-xs-offset-1 navtab">
 					
-					<a  class="contentLink" href="#mob-about">
+					<a class="contentLink" href="#mob-about">
 						<h1 class="mob">About</h1>
 					</a>
 			
