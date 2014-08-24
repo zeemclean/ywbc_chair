@@ -1,7 +1,7 @@
 					<div id="mainnav">
 						<div class="row">
 						<div class="col-md-12">
-							<img id="navLogo" class="img-responsive" src="assets/logo_s.png" alt="Matipo Logo">
+							<img id="navLogo" class="img-responsive" src="assets/logo_s.png" alt="Matipo Logo" title="Matipo Logo">
 						</div>
 						</div>
 						<div class="row navlinks sideNav">
