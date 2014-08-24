@@ -11,7 +11,7 @@
 		
 		<div class="row">
 			<div class="col-xs-8 col-xs-offset-2">
-				<img class="img-responsive" src="assets/chairs/florial_transparent_chair.jpg" alt="">
+				<img class="img-responsive" src="assets/chairs/florial_transparent_chair.jpg" alt="pic" title="Florial transparent chair">
 			</div>
 		</div>
 				
@@ -21,7 +21,7 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<h4>The Chair</h4>
-					<p class="description"> The Mademoiselle is a elegant yet vivacious chair, with a style which harks back to the 1960's.
+					<p class="description"> The Mademoiselle is an elegant yet vivacious chair, with a style which harks back to the 1960's.
 						  A flamboyant and bold textile set into a form and structure that is quintessentially modernist; 
 						  it encapsulates the dichotomy of an era, trying to embrace both order and anarchy.</p>
 				</div>
@@ -59,7 +59,7 @@
 		</div>
 		<div class="row">
 			<div class="col-xs-8 col-xs-offset-2">	
-				<img class="img-responsive" src="assets/chairs/zigzag_black.jpg" alt="">
+				<img class="img-responsive" src="assets/chairs/zigzag_black.jpg" alt="pic" title="Zigzag black chair">
 			</div>
 		</div>
 				
@@ -104,7 +104,7 @@
 		</div>
 		<div class="row">
 			<div class="col-xs-8 col-xs-offset-2">	
-				<img class="img-responsive" src="assets/chairs/rounded_transparent.png" alt="">
+				<img class="img-responsive" src="assets/chairs/rounded_transparent.png" alt="pic" title="Rounded transparent chair">
 			</div>
 		</div>
 				
